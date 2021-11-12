@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 950px 950px;
+    grid-template-rows: 357.5px 357.5px 357.5px 357.5px 357.5px 357.5px 357.5px 357.5px 357.5px 357.5px;
+}
+
+.image{
+    width: 950px;
+    height: 715px;
+}
+
+.set-1{
+    grid-row: 1 / span 2;
+}
+
+.image-2{
+    width: 950px;
+    height: 357.5px;
+}
+
+.set-2{
+    grid-row: 3 / span 2;
+}
+
+.set-3{
+    grid-row: 5 / span 2;
+}
+
+.set-4{
+    grid-row: 7 / span 2;
+}
+
+.set-5{
+    grid-row: 9 / span 2;
+}
